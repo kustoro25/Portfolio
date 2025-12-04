@@ -1,8 +1,7 @@
-html,
-body {
+html, body {
   -webkit-overflow-scrolling: touch;
-  scroll-behavior: smooth;
-  background: black;
+  scroll-behavior: smooth;   
+  background: black;     
 }
 #root {
   background: #000;
@@ -12,28 +11,30 @@ body:not(.fonts-loaded) {
   visibility: hidden;
 }
 .container {
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  inset: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background: black;
-  color: white;
-  z-index: 2000;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;   
+    top: 0;
+    inset: 0;            
+    display: flex;                 
+    justify-content: center;  
+    align-items: center;
+    text-align: center;          
+    background: black;       
+    color: white;                  
+    z-index: 2000;
 }
-.container-title {
-  font-family: "Playwrite HR";
-  font-weight: 400;
-  font-size: 3rem;
+.container-title{
+    font-family: 'Playwrite HR';   
+    font-weight: 400;
+    font-size: 3rem;
 }
 
 @media (max-width: 480px) {
-  .container-title {
-    font-size: 1.5rem;
-    margin-bottom: 150px;
-  }
+
+    .container-title{
+        font-size: 1.5rem;
+        margin-bottom: 150px;
+    }
+    
 }

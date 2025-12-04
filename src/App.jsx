@@ -1,25 +1,26 @@
-import { useEffect, useState } from "react";
-import "./App.css";
-import { AnimatePresence, motion } from "motion/react";
+
+import { useEffect, useState } from 'react';
+import './App.css'
+import { AnimatePresence, motion } from 'motion/react';
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Home from "./Pages/Home/Home";
+import Home from './Pages/Home/Home';
 
 function App() {
   const [showWelcome, setShowWelcome] = useState(true);
   document.fonts.ready.then(() => {
-    document.body.classList.add("fonts-loaded");
-  });
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowWelcome(false);
-    }, 1000);
+  document.body.classList.add('fonts-loaded');
+});
+    useEffect(() => {
+      const timer = setTimeout(() => {
+        setShowWelcome(false);
+      }, 1000);
 
-    return () => clearTimeout(timer);
-  }, []);
+      return () => clearTimeout(timer);
+    }, []);
 
   return (
-    <div className="app">
+    <div className='app'>
       <Home />
       <AnimatePresence>
         {showWelcome && (
@@ -42,14 +43,9 @@ function App() {
           </motion.div>
         )}
       </AnimatePresence>
-      <ToastContainer
-        position="top-right"
-        autoClose={2000}
-        style={{ marginTop: "60px" }}
-        theme="dark"
-      />
+      <ToastContainer position="top-right" autoClose={2000} style={{ marginTop: '60px'}} theme='dark' />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -6,9 +6,3 @@
 - React.js ,JavScript ,Html , CSS.
 - Framer Motion for smooth animations.
 - Lenis scroll for buttery-smooth page scrolling.
-<p align="center">
-  Best viewed on Chrome, Edge, Brave on Desktops and Chrome on Mobiles
-</p>
-<p align="center">
-  🔗 <a href="">Live Demo</a>
-</p>
