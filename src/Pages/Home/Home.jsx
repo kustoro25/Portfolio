@@ -7,7 +7,7 @@ import Lenis from "lenis";
 import Projects from "../../Components/Projects/Projects";
 import Contact from "../../Components/Contact/Contact";
 import Footer from "../../Components/Footer/Footer";
-import SpotLightOverlay from "../../Components/SpotlightOverlay/SpotLightOverlay";
+import SpotLightOverlay from "../../Components/SpotLightOverlay/SpotLightOverlay";
 const Home = () => {
   const [easterEggMode, setEasterEggMode] = useState(false);
 
