@@ -65,7 +65,7 @@ const Hero = ({ sectionRef }) => {
             </motion.button>
           </a>
           <a
-            href="https://www.linkedin.com/in/kustoro-kustoro-030728366/"
+            href="https://www.linkedin.com/in/kstr-fsd/"
             target="_blank"
             rel="noopener noreferrer"
           >

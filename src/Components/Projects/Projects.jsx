@@ -57,7 +57,11 @@ const Projects = ({ sectionRef }) => {
           <div className="project-box">
             <motion.div className="img-box" variants={item}>
               <img src="/netflix_bg.webp" alt="" className="netflix-dark-img" />
-              <a href="placeholder27" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/kustoro25/netflix-clone"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src={github_dark_icon}
                   className="github-dark-img"
@@ -96,7 +100,11 @@ const Projects = ({ sectionRef }) => {
           <div className="project-box">
             <motion.div className="img-box" variants={item}>
               <img src="/Home.png" alt="" className="netflix-dark-img" />
-              <a href="placeholder28" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/kustoro25/wpu-acara"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src={github_light_icon}
                   alt=""
@@ -136,7 +144,11 @@ const Projects = ({ sectionRef }) => {
           <div className="project-box">
             <motion.div className="img-box" variants={item}>
               <img src="/bootcamp.png" alt="" className="netflix-dark-img" />
-              <a href="placeholder29" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/kustoro25/Mission-2-advanced-HariSenin"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src={github_light_icon}
                   alt=""
